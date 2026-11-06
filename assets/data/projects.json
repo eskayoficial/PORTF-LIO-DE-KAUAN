@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "youtubeId": "5Wk94Rj6l_c",
+    "title": "Destruindo tudo na grande final do torneio Pokémon selvagem",
+    "category": "games",
+    "categoryLabel": "Pokémon · Gameplay",
+    "status": "confirmado",
+    "color": "#6de3ee"
+  },
+  {
+    "id": 2,
+    "youtubeId": "VSvw_f1H7KU",
+    "title": "Montei o time mais promissor do mundo no FC 27",
+    "category": "futebol",
+    "categoryLabel": "FC 27 · Futebol",
+    "status": "confirmado",
+    "color": "#b5ff97"
+  },
+  {
+    "id": 3,
+    "youtubeId": "qlpf7iXkWCM",
+    "title": "Cristiano, mas a roleta decide sua carreira (em 2004)",
+    "category": "futebol",
+    "categoryLabel": "Futebol · Desafio",
+    "status": "confirmado",
+    "color": "#ffcd8e"
+  },
+  {
+    "id": 4,
+    "youtubeId": "_gOeTNcv9e4",
+    "title": "Vídeo 04 — edição para YouTube",
+    "category": "outros",
+    "categoryLabel": "Projeto · YouTube",
+    "status": "pendente",
+    "color": "#c4aeff"
+  }
+]

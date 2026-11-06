@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Kauan é editor de vídeos desde 2020. Edição para YouTube, games, vlogs e conteúdos digitais." />
+  <meta name="theme-color" content="#070d19" />
+  <title>Kauan Alves Martins | Portfólio de Edição de Vídeos</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+<div class="progress" id="scroll-progress" aria-hidden="true"></div>
+<div class="container">
+  <header class="header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Kauan - início"><span class="brand-mark">K</span><span>KAUAN <b>/ EDIÇÃO DE VÍDEOS</b></span></a>
+    <nav class="nav" aria-label="Navegação principal"><a href="#sobre">Sobre</a><a href="#projetos">Trabalhos</a><a href="#contato">Contato</a><button class="theme-btn" type="button" id="theme-toggle" aria-label="Alternar tema claro e escuro" title="Alternar tema">☀</button></nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="reveal"><span class="eyebrow">EDITOR DE VÍDEOS • DESDE 2020</span><h1>KAUAN<em>.</em></h1>
+      <h2>Edição com ritmo, impacto visual e atenção aos detalhes.</h2>
+      <p>Transformo gravações em conteúdos mais dinâmicos e envolventes, com cortes, efeitos visuais, músicas, legendas e imagens pensados para cada projeto.</p>
+      <div class="actions"><a class="btn btn-primary" href="#projetos">Explorar trabalhos <span aria-hidden="true">↗</span></a><a class="btn btn-secondary" href="#contato">Falar comigo</a></div>
+      <div class="stats"><div class="stat"><strong>2020</strong><span>Início na edição</span></div><div class="stat"><strong id="project-count">04</strong><span>Vídeos selecionados</span></div><div class="stat"><strong>YouTube</strong><span>Conteúdo digital</span></div></div></div>
+    </section>
+    <section class="section about-layout" id="sobre">
+      <div class="section-header reveal"><span class="eyebrow">Minha trajetória</span><h2>Sobre mim</h2></div>
+      <div class="about-copy reveal"><p>Sou editor de vídeo desde 2020, quando comecei a desenvolver minhas habilidades durante a pandemia, inicialmente editando vídeos de games. Com o passar do tempo, fui aprimorando minhas técnicas e expandindo minha experiência para diferentes estilos de conteúdo, como gameplays, vlogs, vídeos para YouTube e outros formatos digitais.</p><p>Tenho experiência trabalhando com criadores de conteúdo, buscando sempre entregar edições dinâmicas, criativas e de qualidade, que valorizem o conteúdo e mantenham o público interessado.</p><p>Estou sempre em busca de aprender novas técnicas, explorar ferramentas e evoluir profissionalmente. Acredito que cada projeto é uma oportunidade de melhorar minhas habilidades e entregar resultados cada vez melhores.</p></div>
+    </section>
+    <section class="section" id="habilidades"><div class="section-header reveal"><span class="eyebrow">O que eu faço</span><h2>Habilidades de edição</h2></div>
+      <div class="skill-grid"><div class="skill reveal"><small>01 / NARRATIVA</small><strong>Cortes e ritmo</strong></div><div class="skill reveal"><small>02 / VISUAL</small><strong>Efeitos visuais</strong></div><div class="skill reveal"><small>03 / ACESSIBILIDADE</small><strong>Legendas</strong></div><div class="skill reveal"><small>04 / ÁUDIO</small><strong>Trilhas e músicas</strong></div><div class="skill reveal"><small>05 / COMPOSIÇÃO</small><strong>Imagens e inserts</strong></div><div class="skill reveal"><small>06 / RETENÇÃO</small><strong>Vídeos mais dinâmicos</strong></div></div>
+    </section>
+  </main>
+</div>
+<section class="project-section" id="projetos"><div class="container">
+  <div class="projects-head"><div class="section-header reveal"><span class="eyebrow">PORTFÓLIO SELECIONADO</span><h2>Meus trabalhos</h2><p>Veja quatro vídeos que editei. Assista aqui ou abra diretamente no YouTube.</p></div>
+    <label class="search-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg><input id="project-search" type="search" autocomplete="off" placeholder="Buscar por título..." aria-label="Buscar vídeos por título" /></label></div>
+  <div class="filters" aria-label="Filtrar projetos" role="group"><button type="button" class="filter" data-filter="todos" aria-pressed="true">Todos</button><button type="button" class="filter" data-filter="games" aria-pressed="false">Games / Pokémon</button><button type="button" class="filter" data-filter="futebol" aria-pressed="false">Futebol</button><button type="button" class="filter" data-filter="outros" aria-pressed="false">Outros</button><button type="button" class="filter" id="random-project" title="Escolher um vídeo aleatório">Surpreenda-me ↗</button></div>
+  <div class="projectgrid" id="project-grid" aria-live="polite"></div><p class="empty" id="empty-results" hidden>Nenhum projeto corresponde à busca. Tente outro termo.</p>
+</div></section>
+<footer class="contact" id="contato"><div class="container contact-inner"><div class="reveal"><span class="eyebrow">CONTATO</span><h2>Vamos criar o próximo vídeo?</h2><p>Estou disponível para conversar sobre projetos de edição para YouTube e conteúdo digital.</p></div><div class="contact-buttons reveal"><a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://wa.me/5522996003777">WhatsApp · (22) 99600-3777 ↗</a><a class="btn btn-secondary" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kauan.alv3es/">Instagram · @kauan.alv3es ↗</a><button class="btn btn-secondary" id="copy-whatsapp" type="button">Copiar número</button></div></div></footer>
+<div class="container smallprint"><span>KAUAN ALVES MARTINS · EDIÇÃO DE VÍDEOS</span><span>Portfólio © <span id="year">2026</span></span></div>
+<div class="modal" id="video-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden><div class="modal-box"><div class="modal-top"><strong id="modal-title">Assistir vídeo</strong><button type="button" class="modal-close" id="modal-close" aria-label="Fechar vídeo">Fechar ✕</button></div><div class="video-frame" id="modal-player"></div><p class="modal-note">É necessária conexão com a internet para reproduzir vídeos do YouTube. <a id="modal-youtube" href="#" target="_blank" rel="noopener noreferrer">Abrir no YouTube ↗</a></p></div></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="application/json" id="fallback-projects">[{"id": 1, "youtubeId": "5Wk94Rj6l_c", "title": "Destruindo tudo na grande final do torneio Pokémon selvagem", "category": "games", "categoryLabel": "Pokémon · Gameplay", "status": "confirmado", "color": "#6de3ee"}, {"id": 2, "youtubeId": "VSvw_f1H7KU", "title": "Montei o time mais promissor do mundo no FC 27", "category": "futebol", "categoryLabel": "FC 27 · Futebol", "status": "confirmado", "color": "#b5ff97"}, {"id": 3, "youtubeId": "qlpf7iXkWCM", "title": "Cristiano, mas a roleta decide sua carreira (em 2004)", "category": "futebol", "categoryLabel": "Futebol · Desafio", "status": "confirmado", "color": "#ffcd8e"}, {"id": 4, "youtubeId": "_gOeTNcv9e4", "title": "Vídeo 04 — edição para YouTube", "category": "outros", "categoryLabel": "Projeto · YouTube", "status": "pendente", "color": "#c4aeff"}]</script>
+</body>
+</html>
